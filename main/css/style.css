@@ -1,0 +1,83 @@
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    h1 {
+        font-family: 'Roboto';
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Roboto';
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    form {
+        flex-direction: column;
+        justify-content: center;
+        display: block;
+        font-family: 'Roboto';
+    }
+    
+    input {
+        display: block;
+        height: 30px;
+        width: 450px;
+        margin-bottom: 5px;
+        color: black;
+        border-radius: 5px;
+        border-width: 1px;
+        font-family: 'Roboto';
+    }
+    
+    
+    select {
+        display: block;
+        margin-bottom: 5px;
+        height: 30px;
+        width: 457px;
+        justify-content: center;
+        color: black;
+        border-radius: 5px;
+        font-family: 'Roboto';
+    }
+
+    
+    textarea {
+        display: block;
+        margin-bottom: 5px;
+        justify-content: center;
+        width: 450px;
+        border-radius: 5px;
+        font-family: 'Roboto';
+    }
+    
+    
+    label {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-family: 'Roboto';
+    }
+    
+    .bottom {
+        text-align: center;
+    }
+    
+    button {
+        border-radius: 10px;
+        text-align: center;
+        display: inline-block;
+        border-color: white;
+        background-color: #ED145B;
+        padding: 10px 30px;
+        color: rgb(240, 240, 240);
+    }
+    
+    button:hover {
+        border-color: rgba(219, 219, 219, 0.664)
+    }
