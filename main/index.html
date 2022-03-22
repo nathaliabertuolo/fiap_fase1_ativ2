@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        </style>
+    <title>Atividade Capítulo 8</title>
+</head>
+
+<body>
+    <h1>Traveller.</h1>
+    <h2>Inserir Ponto Turístico</h2>
+    <div class="container">
+        <form action="" name="pontosTuristicos" id="pontosTuristicos" method="POST">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="text" id="endereco" placeholder="Endereço">
+            <input type="text" id="cidade" placeholder="Cidade">
+            <input type="text" id="valor" placeholder="Valor">
+            <input type="text" id="site" placeholder="Site">
+            <input type="text" id="telefone" placeholder="Telefone">
+            <input type="text" id="email" placeholder="Email">
+            <select name="categoria" id="categoria">
+                <option value="0">Selecione uma categoria</option>
+                <option value="1">Monumento Histórico</option>
+                <option value="2">Monumento Natural</option>
+                <option value="3">Obra Arquitetônica</option>
+                <option value="4">Museu</option>
+            </select>
+            <textarea name="descricao" id="descricao" placeholder="Descrição" cols="30" rows="10"></textarea>
+            <label for="imagens">Imagens:</label>
+            <input type="file" id="imagens" placeholder="Imagens" hidden />
+            <div class="bottom">
+                <button>Limpar</button>
+                <button>Enviar</button>
+            </div>
+    </div>
+</body>
+
+</html>
